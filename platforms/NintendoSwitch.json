@@ -26,7 +26,7 @@
       "name": "switch - Citron (Optimized)",
       "uniqueId": "switch.com.miHoYo.Yuanshen",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
-      "acceptedFilenameRegex": "^(?i)(?!DLC\\s|UPDATE\\s)(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "acceptedFilenameRegex": "^(?!DLC |UPDATE )(.*)\\.(?:nro|nso|nca|xci|nsp)$",
       "amStartArguments": "-n com.miHoYo.Yuanshen/org.citron.citron_emu.activities.EmulationActivity -a android.intent.action.VIEW -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
